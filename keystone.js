@@ -10,7 +10,7 @@ keystone.init({
 	'name': 'test',
 	'brand': 'test',
 	'host': '54.179.165.32',
-	'port': '3000',
+	'port': '80',
 	
 	'less': 'public',
 	'static': 'public',
