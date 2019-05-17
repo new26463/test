@@ -9,7 +9,6 @@ var handlebars = require('express-handlebars');
 keystone.init({
 	'name': 'test',
 	'brand': 'test',
-	'host': process.env.HOST || '139.5.147.233',
 	
 	'less': 'public',
 	'static': 'public',
