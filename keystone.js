@@ -9,7 +9,9 @@ var handlebars = require('express-handlebars');
 keystone.init({
 	'name': 'test',
 	'brand': 'test',
-
+	'host': '54.179.165.32',
+	'port': '3000',
+	
 	'less': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
