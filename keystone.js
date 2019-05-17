@@ -9,8 +9,8 @@ var handlebars = require('express-handlebars');
 keystone.init({
 	'name': 'test',
 	'brand': 'test',
-	'host: process.env.SSL_IP || '0.0.0.0',
-	'port': process.env.PORT || 3000,
+	'host: process.env.SSL_IP,
+	'port': process.env.PORT,
 	'less': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
